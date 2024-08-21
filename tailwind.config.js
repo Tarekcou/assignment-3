@@ -2,7 +2,18 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        btnColor:"#ABEF5F",
+        btnLightColor: "#d4f6ae",
+        bgColor:"#F4F4F4",
+        bgSecondColor: "#FFFFFF"
+      },
+      textColor:{
+        
+      },
+
+    },
   },
   plugins: [    require('daisyui'),
     

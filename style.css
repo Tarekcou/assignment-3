@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .primaryText{
+    @apply text-[#212121] lg:text-[40px] my-2 font-extrabold md:text-3xl text-2xl
+  }
+  .secondaryText{
+    @apply text-[#494949] font-medium my-2
+  }
+  .cardHeadingText{
+    @apply text-[#494949] text-xl font-bold
+  }
+  .cardParagraphText{
+    @apply font-medium text-base text-[#737373]
+  }
+  
+}
