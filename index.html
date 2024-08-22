@@ -29,7 +29,7 @@
         <div class="">
           <a class="text-2xl md:text-3xl btn btn-ghost">
             <i
-              class="fa-arrow-right-long flex justify-center items-center bg-btnLightColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
+              class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-8 h-8 text-base text-black -rotate-45 fa-solid"
             ></i>
             Rinterio</a
           >
@@ -253,7 +253,7 @@
         <!-- Work Process -->
 
         <section
-          class="flex flex-col justify-center items-center mx-auto my-12 space-y-6"
+          class="flex flex-col justify-center items-center mx-auto my-12 pb-10 space-y-6"
         >
           <div class="text-center mx-auto lg:text-start">
             <a
@@ -323,7 +323,7 @@
 
     <!-- Latest portfulio -->
     <section
-      class="flex flex-col justify-center items-center mx-auto mt-12 space-y-6"
+      class="flex flex-col justify-center items-center mx-auto mt-12 pb-10 space-y-6"
     >
       <div class="text-center mx-auto lg:text-start">
         <a
@@ -425,9 +425,9 @@
     </section>
 
     <!-- Articles and News -->
-    <section class="bg-bgColor mx-auto space-y-5">
+    <section class="bg-bgColor mx-auto space-y-5 py-10">
       <div
-        class="text-center flex justify-center mx-auto lg:text-start pt-10 md:pt-16"
+        class="text-center flex justify-center mx-auto lg:text-start "
       >
         <a
           class="bg-btnLightColor hover:bg-bgColor border rounded-full font-medium text-base btn"
@@ -449,9 +449,9 @@
       >
         <!-- card 1 -->
         <div
-          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-3"
+          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-5"
         >
-          <div class="rounded-2xl h-full w-full mx-auto">
+          <div class="rounded-2xl w-full mx-auto">
             <img class="h-full w-full" src="assets/article1.png" alt="img1" />
           </div>
           <div class="flex flex-col justify-center gap-5">
@@ -468,7 +468,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="primaryText font-bold">
+              <h2 class="cardHeadingText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -488,9 +488,9 @@
 
         <!-- card 2 -->
         <div
-          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-3"
+          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-5"
         >
-          <div class="rounded-2xl h-full w-full mx-auto">
+          <div class="rounded-2xl w-full mx-auto">
             <img class="h-full w-full" src="assets/article2.png" alt="img1" />
           </div>
           <div class="flex flex-col justify-center gap-5">
@@ -507,7 +507,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="primaryText font-bold">
+              <h2 class="cardHeadingText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -527,9 +527,9 @@
 
         <!-- card 3 -->
         <div
-          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-3"
+          class="bg-bgSecondColor flex flex-col md:flex-row lg:flex-col mx-auto rounded-2xl gap-5 border p-5"
         >
-          <div class="rounded-2xl h-full w-full mx-auto">
+          <div class="rounded-2xl w-full mx-auto">
             <img class="h-full w-full" src="assets/article3.png" alt="img1" />
           </div>
           <div class="flex flex-col justify-center gap-4">
@@ -546,7 +546,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="primaryText font-bold">
+              <h2 class="cardHeadingText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -564,6 +564,81 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Image gallery -->
+    <section class="w-11/12 md:w-10/12 mx-auto  my-10 border shadow-lg p-5 space-y-5 rounded-lg">
+      <div
+        class="text-center flex justify-center mx-auto lg:text-start pt-6 md:pt-10"
+      >
+        <a
+          class="bg-btnLightColor hover:bg-bgColor border rounded-full font-medium text-base btn"
+        >
+          <i
+            class="fa-arrow-right-long flex justify-center text-center items-center rounded-full w-7 h-7 text-base text-black fa-solid"
+          ></i>
+          Image Gallery
+        </a>
+      </div>
+       <h1 class="primaryText text-center w-8/12 mx-auto">Image Gallery to show new Design of this Company</h1>
+      <p class="secondaryText  md:w-3/5 mx-auto text-center">
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication, featuring weathered wood, sleek metal accents.
+      </p>
+      <p class="font-bold text-center text-2xl">Click Image below to show big -></p>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto">
+        <!-- The four columns -->
+        
+          <div class="column max-w-[326px] max-h-[180px]">
+            <img
+              src="assets/gallery1.jpeg"
+              alt="Nature"
+              class="flex-1 cursor-pointer w-full h-full rounded-xl"
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+            <img
+              src="assets/gallery2.jpg"
+              alt="Snow"
+              class="flex-1 w-full h-full cursor-pointer rounded-xl"
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+            <img
+              src="assets/gallery3.webp"
+              alt="Mountains"
+              class="flex-1 w-full h-full cursor-pointer rounded-xl"
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+            <img
+              src="assets/gallery4.jpg"
+              alt="Lights"
+              class="flex-1 w-full h-full cursor-pointer rounded-xl"
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+      </div>
+
+        <div class="container relative   ">
+          <p class="font-bold text-center text-xl">Extended Image</p>
+          <span
+            onclick="this.parentElement.style.display='none'"
+            class="closebtn top-10 right-14 text-white text-3xl cursor-pointer"
+            >&times;</span
+          >
+          <div class="md:h-[350px] h-[200px]">
+            <img  src="assets/img2.png" id="expandedImg" class="w-[90%] lg:w-[70%] md:w-[80%] h-full rounded-2xl   mx-auto" />
+          </div>
+          
+          <!-- <div id="imgtext"></div> -->
+        </div>
+     
     </section>
 
     <!-- Discuss Next Project -->
@@ -591,7 +666,7 @@
       </p>
 
       <div
-        class="md:grid md:grid-cols-2 w-11/12 md:w-9/12 lg:w-8/12 mx-auto gap-3"
+        class="md:grid md:grid-cols-2 w-11/12 md:w-9/12 lg:w-8/12 mx-auto gap-3 flex flex-col"
         action=""
       >
         <input
@@ -638,7 +713,7 @@
       <div class="mx-auto text-center text-white pt-10">
         <a class="text-2xl md:text-3xl btn btn-ghost">
           <i
-            class="fa-arrow-right-long flex justify-center items-center bg-btnLightColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
+            class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
           ></i>
           Rinterio</a
         >
@@ -672,5 +747,7 @@
     </section>
 
     <!--  -->
+
+    <script src="script.js"></script>
   </body>
 </html>
