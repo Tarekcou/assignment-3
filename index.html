@@ -127,7 +127,7 @@
           </p>
           <div class="">
             <a
-              class="bg-btnLightColor hover:bg-[#d4e0c6] pl-6 border rounded-full sm:w-auto md:max-w-full text-xl btn"
+              class="bg-btnLightColor hover:bg-[#d4e0c6] pl-6 border rounded-full w-full md:max-w-64 text-xl btn"
               >View Details
               <i
                 class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
@@ -139,7 +139,7 @@
     </div>
 
     <!-- main section Start-->
-    <main class="bg-bgColor pt-6">
+    <main class="bg-bgColor">
       <div class="w-11/12 mx-auto lg:w-10/12">
         <!-- Liveable Spaces -->
         <section class="pt-10">
@@ -176,7 +176,7 @@
                   <!-- card 1 -->
 
                   <div
-                    class="flex gap-4 items-center justify-center rounded-2xl bg-bgSecondColor p-6"
+                    class="flex gap-4 justify-center rounded-2xl bg-bgSecondColor p-6"
                   >
                     <div>
                       <img class="w-full" src="assets/commercial.png" alt="" />
@@ -191,7 +191,7 @@
                   </div>
                   <!-- card 2 -->
                   <div
-                    class="flex gap-2 items-center justify-center rounded-2xl bg-bgSecondColor p-6"
+                    class="flex gap-4 justify-center rounded-2xl bg-bgSecondColor p-6"
                   >
                     <div>
                       <img class="w-full" src="assets/residential.png" alt="" />
@@ -223,28 +223,28 @@
         <!-- Review Content -->
 
         <section
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-around mx-auto p-8 mt-8 card bg-base-100 shadow-xl text-center gap-6"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-around mx-auto p-8 mt-8 card bg-base-100 shadow-xl text-center gap-10"
         >
           <div class="space-y-2">
-            <i class="text-xl fa-regular fa-message"></i>
+            <i class="text-3xl fa-regular fa-message"></i>
             <h2 class="cardHeadingText text-3xl lg:text-4xl">235+</h2>
             <p class="cardParagraphText">Happy Client Review</p>
           </div>
 
           <div class="space-y-2">
-            <i class="text-xl fa-regular fa-building"></i>
+            <i class="text-3xl fa-regular fa-building"></i>
             <h2 class="cardHeadingText lg:text-4xl text-3xl">50+</h2>
             <p class="cardParagraphText">Work Departments</p>
           </div>
 
-          <div class="skew-y-2">
-            <i class="fa-solid fa-user-group text-xl"></i>
+          <div class="space-y-2">
+            <i class="fa-solid fa-user-group text-3xl"></i>
             <h2 class="cardHeadingText lg:text-4xl text-3xl">30k+</h2>
             <p class="cardParagraphText">Our Happy Client</p>
           </div>
 
-          <div class="skew-y-2">
-            <i class="text-xl fa-solid fa-user-group"></i>
+          <div class="space-y-2">
+            <i class="text-3xl fa-solid fa-user-group"></i>
             <h2 class="cardHeadingText lg:text-4xl text-3xl">307+</h2>
             <p class="cardParagraphText">Staff Members</p>
           </div>
@@ -257,7 +257,7 @@
         >
           <div class="text-center mx-auto lg:text-start">
             <a
-              class="bg-bgSecondColor hover:bg-bgColor border rounded-full font-normal text-base btn"
+              class="bg-bgSecondColor hover:bg-bgColor border rounded-full font-medium text-base btn"
             >
               <i
                 class="fa-arrow-right-long flex justify-center items-center rounded-full w-7 h-7 text-base text-black fa-solid"
@@ -343,19 +343,17 @@
 
       <!-- card 1 -->
       <!-- flex flex-col justify-center items-center mx-auto my-12 py-12 -->
-      <div
-        class="md:max-h-[200px] flex flex-col md:flex-row w-11/12 mx-auto lg:w-10/12 gap-4"
-      >
+      <div class="flex flex-col lg:flex-row w-11/12 mx-auto lg:w-10/12 gap-4">
         <div
-          class="w-full lg:w-9/12 flex flex-col lg:flex-row items-center mx-auto rounded-2xl gap-8 border"
+          class="w-full lg:w-9/12 flex flex-col md:flex-row items-center mx-auto rounded-2xl gap-8 border"
         >
-          <div class="rounded-2xl p-5 w-full lg:w-4/12 mx-auto">
+          <div class="rounded-2xl p-4 w-full md:w-5/12 mx-auto">
             <img class="w-full" src="assets/img1.png" alt="img1" />
           </div>
           <div
-            class="lg:w-8/12 flex flex-col justify-start items-start text-start p-3"
+            class="md:w-7/12 flex flex-col justify-start items-start text-start p-3"
           >
-            <h2 class="font-bold">Commercial</h2>
+            <h2 class="text-3xl font-bold">Commercial</h2>
             <p class="secondaryText">
               The barn house captivates with its blend of rustic charm and
               modern. The barn house captivates with its blend of rustic charm
@@ -374,7 +372,7 @@
         <div
           class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl"
         >
-          <img class="w-full" src="assets/img2.png" alt="" />
+          <img class="w-full h-full" src="assets/img2.png" alt="" />
         </div>
       </div>
 
@@ -384,20 +382,20 @@
         class="md:max-h-[200px] flex flex-col md:flex-row w-11/12 mx- my-6 lg:w-10/12 gap-4"
       >
         <div
-          class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl"
+          class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl order-3 md:order-none"
         >
           <img class="w-full h-full" src="assets/img3.png" alt="" />
         </div>
         <div
-          class="lg:w-6/12 w-full flex flex-col lg:flex-row items-center mx-auto rounded-2xl gap-5 border p-3"
+          class="lg:w-6/12 w-full flex flex-col lg:flex-row items-center mx-auto rounded-2xl gap-5 border p-3 order-2 md:order-none"
         >
-          <div class="rounded-2xl h-full w-full lg:w-4/12 mx-auto">
+          <div class="rounded-2xl h-full w-full lg:w-1/2 mx-auto">
             <img class="h-full w-full" src="assets/img4.png" alt="img1" />
           </div>
           <div
-            class="w-full h-full lg:w-8/12 flex flex-col justify-start items-start text-start"
+            class="lg:w-1/2 h-full md:w-7/12 flex flex-col justify-start items-start text-start md:invisible md:hidden lg:visible lg:block"
           >
-            <h2 class="font-bold">Commercial</h2>
+            <h2 class="font-bold text-3xl">Commercial</h2>
             <p class="secondaryText">
               The barn house captivates with its blend of rustic charm and
               modern.
@@ -413,7 +411,13 @@
         </div>
 
         <div
-          class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl"
+          class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl order-1 md:order-none"
+        >
+          <img class="w-full h-full" src="assets/img5.png" alt="" />
+        </div>
+        <!-- duplicate image -->
+        <div
+          class="lg:w-3/12 w-full flex flex-col md:flex-row justify-center items-center mx-auto rounded-2xl gap-5 border p-3 shadow-xl order-4 md:order-none md:invisible md:hidden"
         >
           <img class="w-full h-full" src="assets/img5.png" alt="" />
         </div>
@@ -464,7 +468,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="font-bold">
+              <h2 class="primaryText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -473,7 +477,7 @@
               </p>
 
               <a class="flex gap-2 font-bold">
-                View Details
+                Read More
                 <i
                   class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
                 ></i>
@@ -503,7 +507,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="font-bold">
+              <h2 class="primaryText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -512,7 +516,7 @@
               </p>
 
               <a class="flex gap-2 font-bold">
-                View Details
+                Read More
                 <i
                   class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
                 ></i>
@@ -542,7 +546,7 @@
             <div
               class="w-full h-full flex flex-col justify-start items-start text-start"
             >
-              <h2 class="font-bold">
+              <h2 class="primaryText font-bold">
                 How to choose the furniture right of your home.
               </h2>
               <p class="secondaryText">
@@ -551,7 +555,7 @@
               </p>
 
               <a class="flex gap-2 font-bold">
-                View Details
+                Read More
                 <i
                   class="fa-arrow-right-long flex justify-center items-center bg-btnColor rounded-full w-7 h-7 text-base text-black -rotate-45 fa-solid"
                 ></i>
@@ -578,14 +582,16 @@
           Let's Connect
         </a>
       </div>
-      <h1 class="primaryText text-center">Let's Discuss Next Project</h1>
+      <h1 class="primaryText font-extrabold text-center">
+        Let's Discuss Next Project
+      </h1>
       <p class="secondaryText w-4/5 md:w-3/5 mx-auto text-center">
         The barn house captivates with its blend of rustic charm and modern
         sophistication, featuring weathered wood, sleek metal accents.
       </p>
 
       <div
-        class="grid md:grid-cols-2 space-y-5 w-11/12 md:w-8/12 mx-auto"
+        class="md:grid md:grid-cols-2 w-11/12 md:w-9/12 lg:w-8/12 mx-auto gap-3"
         action=""
       >
         <input
@@ -610,13 +616,13 @@
         />
         <div class="flex flex-col col-span-2">
           <textarea
-            class="rounded-2xl border-none bg-white p-4 h-44 w-full"
+            class="rounded-2xl border-none bg-white p-4 h-64 w-full"
             placeholder="Write Your message here"
             type="text"
           ></textarea>
 
           <a
-            class="flex justify-center font-bold bg-btnLightColor flex-1 w-full p-3 text-center rounded-full my-4 gap-4"
+            class="flex justify-center font-bold bg-btnColor flex-1 w-full p-3 text-center rounded-full my-4 gap-4"
           >
             Send Mail
             <i
