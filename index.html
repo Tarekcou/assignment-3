@@ -108,7 +108,7 @@
     </div>
 
     <!-- Banner Section -->
-    <div class="bg-gradient-to-b from-[#f6f6f6] to-[#ffffff] mx-auto py-10">
+    <div class="bg-gradient-to-b from-[#f6f6f6] to-[#ffffff] mx-auto pb-10">
       <div
         class="flex flex-col justify-center items-center w-11/12 lg:w-10/12 text-center mx-auto"
       >
@@ -209,10 +209,10 @@
             </div>
 
             <div
-              class="flex-1 h-full w-full mx-auto object-cover overflow-hidden rounded-2xl"
+              class="flex-1 w-full h-[200px] md:h-[380px] lg:h-[500px] mx-auto object-cover overflow-hidden rounded-2xl border border-red-500"
             >
               <img
-                class="w-full object-cover h-[200px] md:h-[380px] lg:h-[500px]"
+                class="w-full h-full object-cover "
                 src="assets/Rectangle.png"
                 alt=""
               />
@@ -567,15 +567,16 @@
     </section>
 
     <!-- Image gallery -->
-    <section class="w-11/12 md:w-10/12 mx-auto  my-10 border shadow-lg p-5 space-y-5 rounded-lg">
+    <section class="bg-bgColor ">
+      <div class="bg-bgSecondColor w-11/12 md:w-10/12 mx-auto   border shadow-xl  space-y-5 rounded-lg">
       <div
-        class="text-center flex justify-center mx-auto lg:text-start pt-6 md:pt-10"
+        class="text-center flex justify-center mx-auto lg:text-start  pt-6 md:pt-10"
       >
         <a
           class="bg-btnLightColor hover:bg-bgColor border rounded-full font-medium text-base btn"
         >
           <i
-            class="fa-arrow-right-long flex justify-center text-center items-center rounded-full w-7 h-7 text-base text-black fa-solid"
+            class="fa-arrow-right-long flex justify-center text-center items-center rounded-full w-6 h-6 md:w-7 md:h-7text-base text-black fa-solid"
           ></i>
           Image Gallery
         </a>
@@ -585,12 +586,12 @@
         The barn house captivates with its blend of rustic charm and modern
         sophistication, featuring weathered wood, sleek metal accents.
       </p>
-      <p class="font-bold text-center text-2xl">Click Image below to show big -></p>
+      <p class="font-bold text-center text-lg md:text-2xl">Click Image below to show big -></p>
       
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto px-5">
         <!-- The four columns -->
         
-          <div class="column max-w-[326px] max-h-[180px]">
+          <div class="column max-w-[326px] h-[150px] lg:h-[180px]">
             <img
               src="assets/gallery1.jpeg"
               alt="Nature"
@@ -598,7 +599,7 @@
               onclick="myFunction(this);"
             />
           </div>
-          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+          <div class="column  max-w-[326px] h-[150px] lg:h-[180px] rounded-xl">
             <img
               src="assets/gallery2.jpg"
               alt="Snow"
@@ -606,7 +607,7 @@
               onclick="myFunction(this);"
             />
           </div>
-          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+          <div class="column  max-w-[326px] h-[150px] lg:h-[180px] rounded-xl">
             <img
               src="assets/gallery3.webp"
               alt="Mountains"
@@ -614,7 +615,7 @@
               onclick="myFunction(this);"
             />
           </div>
-          <div class="column  max-w-[326px] max-h-[180px] rounded-xl">
+          <div class="column  max-w-[326px] h-[150px] lg:h-[180px] rounded-xl">
             <img
               src="assets/gallery4.jpg"
               alt="Lights"
@@ -623,20 +624,22 @@
             />
           </div>
         </div>
-      </div>
+      
 
-        <div class="container relative   ">
+        <div class="container relative  pb-5 ">
           <p class="font-bold text-center text-xl">Extended Image</p>
           <span
             onclick="this.parentElement.style.display='none'"
             class="closebtn top-10 right-14 text-white text-3xl cursor-pointer"
             >&times;</span
           >
-          <div class="md:h-[350px] h-[200px]">
+          <div class="md:h-[350px] h-[220px]">
             <img  src="assets/img2.png" id="expandedImg" class="w-[90%] lg:w-[70%] md:w-[80%] h-full rounded-2xl   mx-auto" />
           </div>
           
           <!-- <div id="imgtext"></div> -->
+        </div>
+        </div>
         </div>
      
     </section>
@@ -737,7 +740,7 @@
       </div>
       <div class="mx-auto text-center pb-10">
         <a
-          class="bg-btnColor hover:bg-btnLightColor px-12 border rounded-full max-w-full text-xl btn"
+          class="bg-btnColor hover:bg-btnLightColor px-12 border rounded-full max-w-full text-xl btn border-none"
           >Book Consult
           <i
             class="fa-arrow-right-long flex justify-center items-center bg-black rounded-full w-7 h-7 text-base text-white -rotate-45 fa-solid"

@@ -8,6 +8,7 @@
   }
   .secondaryText{
     @apply text-[#494949] font-medium my-2
+    
   }
   .cardHeadingText{
     @apply text-[#494949] text-xl font-bold
